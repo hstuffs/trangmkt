@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trang's Marketing Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Georgia', serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      width: 100%;
+      padding: 40px 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .photo img {
+      max-width: 100%;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .intro {
+      /* text-align: center; */
+      max-width: 400px;
+    }
+
+    .intro h1 {
+      font-size: 2.5em;
+      font-weight: 800;
+    }
+
+    .intro p {
+      font-size: 1rem;
+      margin: 20px 0;
+      color: #333;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .buttons a {
+        text-align: center;
+      text-decoration: none;
+      background-color: #2e2e2e;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: background 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #444;
+    }
+
+    .socials {
+      margin-top: 40px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .socials a {
+      color: #000;
+      font-size: 1.5em;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="photo">
+        <img src="image.png" alt="Trang smiling at a coffee table">
+      </div>
+
+      <div class="intro">
+        <h1>Hello,<br> I am Trang</h1>
+        <p>Here you will find all the highlights of my Marketing journey</p>
+        <div class="buttons">
+          <a href="#about">ABOUT ME</a>
+          <a href="#portfolio">MY PORTFOLIO</a>
+          <a href="#next">WHAT NEXT?</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="socials">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+</body>
+</html>
